@@ -19,6 +19,7 @@
             }
             function commands() {
                 window.open("./commands.html")
+                window.close()
             }
             function onload() {
                 document.getElementById('loading').style.display="none"
@@ -30,6 +31,6 @@
         <br>
         <button style="background-color: rgb(24, 24, 180); height: 50px; width: 100px;" onclick="openpage()"><font style="color: red;" size="6">Add</font></button>
         <button style="background-color: rgb(24, 24, 180); height: 50px; width: 100px;" onclick="commands()"><font style="color: red;" size="2">List of commands</font></button>
-        <img src="assets/images/loading.gif" style="display: block; height: 100px; width: 100px; margin-left: 50%; margin-bottom: 50%;" id="loading">
+        <img src="../../assets/images/loading.gif" style="display: block; height: 100px; width: 100px; margin-left: 50%; margin-bottom: 50%;" id="loading">
     </body>
 </html>
