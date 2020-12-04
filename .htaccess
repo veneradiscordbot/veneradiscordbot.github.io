@@ -1,1 +1,2 @@
 ErrorDocument 404 https://veneradiscordbot.github.io/404.html
+Deny from All
